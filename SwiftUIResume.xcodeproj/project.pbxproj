@@ -41,6 +41,7 @@
 		AD854EF72782CACF00AAFCD1 /* Muyao-Softbrush-2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muyao-Softbrush-2.ttf"; sourceTree = "<group>"; };
 		AD854EF92782CB0200AAFCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AD854EFA27845FF400AAFCD1 /* Record.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Record.gif; sourceTree = "<group>"; };
+		AD854EFB2784631000AAFCD1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 				AD854EF72782CACF00AAFCD1 /* Muyao-Softbrush-2.ttf */,
 				AD854EFA27845FF400AAFCD1 /* Record.gif */,
 				AD854EC02781EC4000AAFCD1 /* Assets.xcassets */,
+				AD854EFB2784631000AAFCD1 /* README.md */,
 				AD854EC22781EC4000AAFCD1 /* Preview Content */,
 			);
 			path = SwiftUIResume;
