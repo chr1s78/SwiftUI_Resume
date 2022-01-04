@@ -8,17 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		AD854EBD2781EC3F00AAFCD1 /* SwiftUIResumeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD854EBC2781EC3F00AAFCD1 /* SwiftUIResumeApp.swift */; };
-		AD854EBF2781EC3F00AAFCD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD854EBE2781EC3F00AAFCD1 /* ContentView.swift */; };
 		AD854EC12781EC4000AAFCD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD854EC02781EC4000AAFCD1 /* Assets.xcassets */; };
 		AD854EC42781EC4000AAFCD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD854EC32781EC4000AAFCD1 /* Preview Assets.xcassets */; };
+		AD854ECF2781ECDE00AAFCD1 /* UIBezierPath+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD854ECD2781ECDE00AAFCD1 /* UIBezierPath+Extension.swift */; };
+		AD854ED32781ED6C00AAFCD1 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD854ED22781ED6C00AAFCD1 /* LaunchView.swift */; };
+		AD854ED52781EDB400AAFCD1 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD854ED42781EDB400AAFCD1 /* ShapeView.swift */; };
+		AD854EDF2781F82600AAFCD1 /* Me.txt in Resources */ = {isa = PBXBuildFile; fileRef = AD854EDE2781F82600AAFCD1 /* Me.txt */; };
+		AD854EE72782029200AAFCD1 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD854EE62782029200AAFCD1 /* AppViewModel.swift */; };
+		AD854EEA2782B9E300AAFCD1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD854EE92782B9E300AAFCD1 /* DataService.swift */; };
+		AD854EEE2782BD3E00AAFCD1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD854EED2782BD3E00AAFCD1 /* HomeView.swift */; };
+		AD854EF12782BD5000AAFCD1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD854EF02782BD5000AAFCD1 /* HomeViewModel.swift */; };
+		AD854EF42782BF4300AAFCD1 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD854EF32782BF4300AAFCD1 /* DataModel.swift */; };
+		AD854EF62782C9CC00AAFCD1 /* ChatBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD854EF52782C9CC00AAFCD1 /* ChatBubbleView.swift */; };
+		AD854EF82782CACF00AAFCD1 /* Muyao-Softbrush-2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD854EF72782CACF00AAFCD1 /* Muyao-Softbrush-2.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD854EB92781EC3F00AAFCD1 /* SwiftUIResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD854EBC2781EC3F00AAFCD1 /* SwiftUIResumeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIResumeApp.swift; sourceTree = "<group>"; };
-		AD854EBE2781EC3F00AAFCD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD854EC02781EC4000AAFCD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD854EC32781EC4000AAFCD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD854ECD2781ECDE00AAFCD1 /* UIBezierPath+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+Extension.swift"; sourceTree = "<group>"; };
+		AD854ED22781ED6C00AAFCD1 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		AD854ED42781EDB400AAFCD1 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		AD854EDE2781F82600AAFCD1 /* Me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Me.txt; sourceTree = "<group>"; };
+		AD854EE62782029200AAFCD1 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		AD854EE92782B9E300AAFCD1 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		AD854EED2782BD3E00AAFCD1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AD854EF02782BD5000AAFCD1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AD854EF32782BF4300AAFCD1 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		AD854EF52782C9CC00AAFCD1 /* ChatBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleView.swift; sourceTree = "<group>"; };
+		AD854EF72782CACF00AAFCD1 /* Muyao-Softbrush-2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muyao-Softbrush-2.ttf"; sourceTree = "<group>"; };
+		AD854EF92782CB0200AAFCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +72,11 @@
 		AD854EBB2781EC3F00AAFCD1 /* SwiftUIResume */ = {
 			isa = PBXGroup;
 			children = (
-				AD854EBC2781EC3F00AAFCD1 /* SwiftUIResumeApp.swift */,
-				AD854EBE2781EC3F00AAFCD1 /* ContentView.swift */,
+				AD854ED02781ED4F00AAFCD1 /* Screens */,
+				AD854ECA2781EC9C00AAFCD1 /* Component */,
+				AD854EF92782CB0200AAFCD1 /* Info.plist */,
+				AD854EDE2781F82600AAFCD1 /* Me.txt */,
+				AD854EF72782CACF00AAFCD1 /* Muyao-Softbrush-2.ttf */,
 				AD854EC02781EC4000AAFCD1 /* Assets.xcassets */,
 				AD854EC22781EC4000AAFCD1 /* Preview Content */,
 			);
@@ -65,6 +89,102 @@
 				AD854EC32781EC4000AAFCD1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD854ECA2781EC9C00AAFCD1 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				AD854ECB2781ECD000AAFCD1 /* SVG to Path */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		AD854ECB2781ECD000AAFCD1 /* SVG to Path */ = {
+			isa = PBXGroup;
+			children = (
+				AD854ECD2781ECDE00AAFCD1 /* UIBezierPath+Extension.swift */,
+				AD854ED42781EDB400AAFCD1 /* ShapeView.swift */,
+			);
+			path = "SVG to Path";
+			sourceTree = "<group>";
+		};
+		AD854ED02781ED4F00AAFCD1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AD854EE32782023D00AAFCD1 /* App Screen */,
+				AD854ED12781ED5700AAFCD1 /* Launch Screen */,
+				AD854EEB2782BD2600AAFCD1 /* Home Screen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		AD854ED12781ED5700AAFCD1 /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				AD854ED22781ED6C00AAFCD1 /* LaunchView.swift */,
+			);
+			path = "Launch Screen";
+			sourceTree = "<group>";
+		};
+		AD854EE32782023D00AAFCD1 /* App Screen */ = {
+			isa = PBXGroup;
+			children = (
+				AD854EE52782028100AAFCD1 /* View Model */,
+				AD854EBC2781EC3F00AAFCD1 /* SwiftUIResumeApp.swift */,
+			);
+			path = "App Screen";
+			sourceTree = "<group>";
+		};
+		AD854EE52782028100AAFCD1 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD854EE62782029200AAFCD1 /* AppViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		AD854EE82782B9BF00AAFCD1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AD854EE92782B9E300AAFCD1 /* DataService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AD854EEB2782BD2600AAFCD1 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				AD854EF22782BF3500AAFCD1 /* Models */,
+				AD854EE82782B9BF00AAFCD1 /* Service */,
+				AD854EEF2782BD4200AAFCD1 /* View Model */,
+				AD854EEC2782BD3400AAFCD1 /* Views */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		AD854EEC2782BD3400AAFCD1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD854EED2782BD3E00AAFCD1 /* HomeView.swift */,
+				AD854EF52782C9CC00AAFCD1 /* ChatBubbleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD854EEF2782BD4200AAFCD1 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD854EF02782BD5000AAFCD1 /* HomeViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		AD854EF22782BF3500AAFCD1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD854EF32782BF4300AAFCD1 /* DataModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +245,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD854EF82782CACF00AAFCD1 /* Muyao-Softbrush-2.ttf in Resources */,
 				AD854EC42781EC4000AAFCD1 /* Preview Assets.xcassets in Resources */,
+				AD854EDF2781F82600AAFCD1 /* Me.txt in Resources */,
 				AD854EC12781EC4000AAFCD1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +259,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD854EBF2781EC3F00AAFCD1 /* ContentView.swift in Sources */,
+				AD854EEA2782B9E300AAFCD1 /* DataService.swift in Sources */,
+				AD854EF12782BD5000AAFCD1 /* HomeViewModel.swift in Sources */,
+				AD854ED52781EDB400AAFCD1 /* ShapeView.swift in Sources */,
+				AD854EEE2782BD3E00AAFCD1 /* HomeView.swift in Sources */,
+				AD854EF42782BF4300AAFCD1 /* DataModel.swift in Sources */,
+				AD854EE72782029200AAFCD1 /* AppViewModel.swift in Sources */,
+				AD854ED32781ED6C00AAFCD1 /* LaunchView.swift in Sources */,
+				AD854EF62782C9CC00AAFCD1 /* ChatBubbleView.swift in Sources */,
 				AD854EBD2781EC3F00AAFCD1 /* SwiftUIResumeApp.swift in Sources */,
+				AD854ECF2781ECDE00AAFCD1 /* UIBezierPath+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +402,13 @@
 				DEVELOPMENT_TEAM = LHAYGSB5VA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIResume/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +433,13 @@
 				DEVELOPMENT_TEAM = LHAYGSB5VA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIResume/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
