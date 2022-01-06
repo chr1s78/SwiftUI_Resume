@@ -37,7 +37,8 @@ extension ChatBubbleView {
     @ViewBuilder
     func showText() -> some View {
         if vm.style == .single {
-            Text(vm.singleText)
+          //  Text(vm.singleText)
+            Text(vm.singleAttribute)
                 .font(Font.custom("Muyao-Softbrush", size: 21))
         } else if vm.style == .double {
             VStack {

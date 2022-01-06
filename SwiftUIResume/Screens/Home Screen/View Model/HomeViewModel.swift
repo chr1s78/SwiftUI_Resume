@@ -51,7 +51,7 @@ class HomeViewModel: ObservableObject {
     static var index: Int = 0
     
     /// 判断字符是否为数字、字母或"#"的正则表达式
-    let predicate = NSPredicate(format: "SELF MATCHES %@", "^[a-zA-Z0-9#]+$")
+    let predicate = NSPredicate(format: "SELF MATCHES %@", "^[a-zA-Z0-9#+]+$")
     
     var showStorySubject = CurrentValueSubject<Int, Never>(0) 
     var analyseTextSubject = PassthroughSubject<String, Never>()
@@ -179,9 +179,13 @@ extension HomeViewModel {
     }
     
     /// 订阅单段文本发布
-    /// - 根据文本长度，设置聊天气泡图片宽度
+    /// - 1. 根据文本长度，设置聊天气泡图片宽度
+    ///   2. 判断文本中是否有需要红色显示的文本
     private func addTextWidthSubscription() {
-         $singleText
+        
+        let share = $singleText.share()
+        
+        share
              .sink {
                  switch $0.count {
                  case 0:
@@ -203,22 +207,20 @@ extension HomeViewModel {
                  }
              }
              .store(in: &cancellables)
-    }
-    
-    private func addSingleTextSubscription() {
-        $singleText
-            .flatMap { [weak self] value -> Publishers.Sequence<[String], Never> in
-                self?.singleAttribute = AttributedString(value)
-                return value.components(separatedBy: " ").publisher
-            }
-            .filter { self.predicate.evaluate(with: $0) }
-            .sink { _ in
-            } receiveValue: { [weak self] value  in
-                if let range = self?.singleAttribute.range(of: value) {
-                    self?.singleAttribute[range].foregroundColor = .red
-                }
-            }
-            .store(in: &cancellables)
+        
+        share
+             .flatMap { [weak self] value -> Publishers.Sequence<[String], Never> in
+                 self?.singleAttribute = AttributedString(value)
+                 return value.components(separatedBy: " ").publisher
+             }
+             .filter { self.predicate.evaluate(with: $0) }
+             .sink { _ in
+             } receiveValue: { [weak self] value  in
+                 if let range = self?.singleAttribute.range(of: value) {
+                     self?.singleAttribute[range].foregroundColor = .red
+                 }
+             }
+             .store(in: &cancellables)
     }
 }
 
