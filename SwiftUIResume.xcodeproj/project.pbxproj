@@ -20,7 +20,7 @@
 		AD854EF12782BD5000AAFCD1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD854EF02782BD5000AAFCD1 /* HomeViewModel.swift */; };
 		AD854EF42782BF4300AAFCD1 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD854EF32782BF4300AAFCD1 /* DataModel.swift */; };
 		AD854EF62782C9CC00AAFCD1 /* ChatBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD854EF52782C9CC00AAFCD1 /* ChatBubbleView.swift */; };
-		AD854EF82782CACF00AAFCD1 /* Muyao-Softbrush-2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD854EF72782CACF00AAFCD1 /* Muyao-Softbrush-2.ttf */; };
+		AD854EF82782CACF00AAFCD1 /* Muyao-Softbrush.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD854EF72782CACF00AAFCD1 /* Muyao-Softbrush.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +38,7 @@
 		AD854EF02782BD5000AAFCD1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		AD854EF32782BF4300AAFCD1 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		AD854EF52782C9CC00AAFCD1 /* ChatBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleView.swift; sourceTree = "<group>"; };
-		AD854EF72782CACF00AAFCD1 /* Muyao-Softbrush-2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muyao-Softbrush-2.ttf"; sourceTree = "<group>"; };
+		AD854EF72782CACF00AAFCD1 /* Muyao-Softbrush.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muyao-Softbrush.ttf"; sourceTree = "<group>"; };
 		AD854EF92782CB0200AAFCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AD854EFC2784654E00AAFCD1 /* Record.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Record.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +78,7 @@
 				AD854EF92782CB0200AAFCD1 /* Info.plist */,
 				AD854EFC2784654E00AAFCD1 /* Record.gif */,
 				AD854EDE2781F82600AAFCD1 /* Me.txt */,
-				AD854EF72782CACF00AAFCD1 /* Muyao-Softbrush-2.ttf */,
+				AD854EF72782CACF00AAFCD1 /* Muyao-Softbrush.ttf */,
 				AD854EC02781EC4000AAFCD1 /* Assets.xcassets */,
 				AD854EC22781EC4000AAFCD1 /* Preview Content */,
 			);
@@ -247,7 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD854EF82782CACF00AAFCD1 /* Muyao-Softbrush-2.ttf in Resources */,
+				AD854EF82782CACF00AAFCD1 /* Muyao-Softbrush.ttf in Resources */,
 				AD854EC42781EC4000AAFCD1 /* Preview Assets.xcassets in Resources */,
 				AD854EDF2781F82600AAFCD1 /* Me.txt in Resources */,
 				AD854EC12781EC4000AAFCD1 /* Assets.xcassets in Resources */,

@@ -68,6 +68,7 @@ extension HomeView {
     
     func showBKImage() -> some View {
         VStack {
+            // 背景图过渡切换
             if vm.isImageChanging {
                 Image(vm.bkImage)
                     .resizable()
@@ -95,8 +96,6 @@ extension HomeView {
     func nextButton() -> some View {
         Button {
             vm.showNextStory()
-            print("count = \(vm.contentCount)")
-            print("current = \(HomeViewModel.index)")
         } label: {
             Image(systemName: "arrowtriangle.right")
                 .foregroundColor(HomeViewModel.index == vm.contentCount - 1 ? .gray : .white)

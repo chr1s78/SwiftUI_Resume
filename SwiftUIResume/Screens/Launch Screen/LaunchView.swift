@@ -11,7 +11,9 @@ struct LaunchView: View {
     
     @State var endTrim: CGFloat = 0
     @State var isFilled = false
-    let pathBounds = UIBezierPath.calculateBounds(paths: [.SVG_M_Letter, .SVG_e_Letter])
+    let pathBounds = UIBezierPath.calculateBounds(
+        paths: [.SVG_M_Letter, .SVG_e_Letter]
+    )
     
     var body: some View {
         ZStack {

@@ -63,6 +63,7 @@ class HomeViewModel: ObservableObject {
     init(dataService: DataServiceProtocol) {
         self.dataService = dataService
         
+        // 添加Combine订阅
         fetchFileSubscription(self.dataService)
         addImageSubscription()
         addShowTextSubscription()
@@ -211,8 +212,7 @@ extension HomeViewModel {
                 return value.components(separatedBy: " ").publisher
             }
             .filter { self.predicate.evaluate(with: $0) }
-            .sink { completion in
-                print("completion: \(completion)")
+            .sink { _ in
             } receiveValue: { [weak self] value  in
                 if let range = self?.singleAttribute.range(of: value) {
                     self?.singleAttribute[range].foregroundColor = .red
