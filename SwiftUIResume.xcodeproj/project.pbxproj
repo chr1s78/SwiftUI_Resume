@@ -40,7 +40,6 @@
 		AD854EF52782C9CC00AAFCD1 /* ChatBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleView.swift; sourceTree = "<group>"; };
 		AD854EF72782CACF00AAFCD1 /* Muyao-Softbrush.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muyao-Softbrush.ttf"; sourceTree = "<group>"; };
 		AD854EF92782CB0200AAFCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		AD854EFC2784654E00AAFCD1 /* Record.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Record.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +75,6 @@
 				AD854ED02781ED4F00AAFCD1 /* Screens */,
 				AD854ECA2781EC9C00AAFCD1 /* Component */,
 				AD854EF92782CB0200AAFCD1 /* Info.plist */,
-				AD854EFC2784654E00AAFCD1 /* Record.gif */,
 				AD854EDE2781F82600AAFCD1 /* Me.txt */,
 				AD854EF72782CACF00AAFCD1 /* Muyao-Softbrush.ttf */,
 				AD854EC02781EC4000AAFCD1 /* Assets.xcassets */,
